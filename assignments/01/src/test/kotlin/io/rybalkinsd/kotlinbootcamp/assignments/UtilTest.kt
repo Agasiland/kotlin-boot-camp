@@ -4,14 +4,14 @@ import junit.framework.TestCase.assertEquals
 import org.junit.Ignore
 import org.junit.Test
 
-@Ignore
+
 class UtilTest {
 
     @Test
     fun `max # the only element is exactly max element`() {
         assertEquals(42, max(listOf(42)))
     }
-
+    
     @Test
     fun `max # small list with unique elements`() {
         assertEquals(3, max(listOf(1, 2, 3)))
