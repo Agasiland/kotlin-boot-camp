@@ -12,7 +12,6 @@ fun max(values: List<Int>): Int {
     else
         return 0
 }
-
 /**
  * Returns the sum of all `int` values.
  *
